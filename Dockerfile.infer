@@ -1,7 +1,29 @@
-WORKDIR /app
-COPY requirements.txt .
-COPY server.py .
 FROM python:3.9-slim
-CMD ["python", "server.py"]
+
+
+# Set a working directory
+WORKDIR /app
+
+
+# Copy the requirements.txt file to the working directory
+COPY requirements.txt .
+
+
+# Install the Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
+
+
+# indicate which port should be exposed in the image
 EXPOSE 8080
+
+
+# Copy the training script (server.py) to the working directory
+COPY server.py .
+
+
+# run the server script that generates a server
+CMD ["python", "server.py"]
+
+
+# Command to build the image:
+#  docker build . --tag sever:v01 -f Dockerfile.infer
