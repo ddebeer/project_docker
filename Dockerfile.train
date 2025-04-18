@@ -1,12 +1,30 @@
-FROM <base imagae>
+FROM python:3.9-slim
 
-# TODO: Set a working directory
 
-# TODO: Copy the requirements.txt file to the working directory
+# Set a working directory
+WORKDIR /app
 
-# TODO: Install the Python dependencies
 
-# TODO: Copy the training script (train.py) to the working directory
+# Copy the requirements.txt file to the working directory
+COPY requirements.txt ./
 
-# TODO: Run the training script that generates the model
-CMD [...]
+
+# Install the Python dependencies
+RUN apt update && apt -y upgrade
+RUN apt install -y wget
+RUN pip install --no-cache-dir -r requirements.txt
+
+
+# Copy the training script (train.py) to the working directory
+COPY train.py ./
+
+
+# Setup an app user so the container doesn't run as the root user
+# RUN useradd app
+# USER app
+
+
+
+# run the training script that generates the model
+# CMD ["python", "train.py"]
+
