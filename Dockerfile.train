@@ -26,5 +26,9 @@ COPY train.py ./
 
 
 # run the training script that generates the model
-# CMD ["python", "train.py"]
+CMD ["python", "train.py"]
+
+
+# Command to build the image:
+#  docker build . --tag train:v01 -f Dockerfile.train
 
