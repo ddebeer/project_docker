@@ -1,0 +1,54 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) env/vsc/donphan     3) env/software/donphan
+  2) env/slurm/donphan   4) cluster/donphan
+Start Job
+INFO:    Converting OCI blobs to SIF format
+INFO:    Starting build...
+Copying blob sha256:05802d3ba2ead9e590dd748b23da547106549ef0fa66bbe6cf14583d1450db04
+Copying blob sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96
+Copying blob sha256:74018f7cfa8f2965fd86b13c38f71417bc846e071a5f5bb5ae569ccb5a6e7248
+Copying blob sha256:a0b0cfc480ce03c723a597904bcfbf28c71438c689e6d5097c2332835f67a40c
+Copying blob sha256:97d21b95fb00ac3b08975ab6f8709f3a7e35a05d75e2f9a70fa95348279dac27
+Copying blob sha256:7c0a46d2d00fd6b3bfbaf17d1a66701c9f045b106b2b77d30308d83b4997e91a
+Copying blob sha256:722a684821197aa750a57327cce12518f2aff787af1bf353c4ddae4beae7ad44
+Copying blob sha256:179efd259301554f31db82f1ab6362ef03724ce395462216777ef0636ad6a7c0
+Copying config sha256:9302d5dd202ce9285b6d62d0f0fb5d8e95b7e6a278db8bdd7ba0baf6961cc324
+Writing manifest to image destination
+2025/04/24 15:09:22  info unpack layer: sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96
+2025/04/24 15:09:23  info unpack layer: sha256:74018f7cfa8f2965fd86b13c38f71417bc846e071a5f5bb5ae569ccb5a6e7248
+2025/04/24 15:09:23  info unpack layer: sha256:a0b0cfc480ce03c723a597904bcfbf28c71438c689e6d5097c2332835f67a40c
+2025/04/24 15:09:24  info unpack layer: sha256:97d21b95fb00ac3b08975ab6f8709f3a7e35a05d75e2f9a70fa95348279dac27
+2025/04/24 15:09:24  info unpack layer: sha256:7c0a46d2d00fd6b3bfbaf17d1a66701c9f045b106b2b77d30308d83b4997e91a
+2025/04/24 15:09:24  info unpack layer: sha256:05802d3ba2ead9e590dd748b23da547106549ef0fa66bbe6cf14583d1450db04
+2025/04/24 15:09:24  info unpack layer: sha256:722a684821197aa750a57327cce12518f2aff787af1bf353c4ddae4beae7ad44
+2025/04/24 15:09:27  info unpack layer: sha256:179efd259301554f31db82f1ab6362ef03724ce395462216777ef0636ad6a7c0
+INFO:    Creating SIF file...
+halfway
+INFO:    Converting OCI blobs to SIF format
+INFO:    Starting build...
+Copying blob sha256:05802d3ba2ead9e590dd748b23da547106549ef0fa66bbe6cf14583d1450db04
+Copying blob sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96
+Copying blob sha256:74018f7cfa8f2965fd86b13c38f71417bc846e071a5f5bb5ae569ccb5a6e7248
+Copying blob sha256:a0b0cfc480ce03c723a597904bcfbf28c71438c689e6d5097c2332835f67a40c
+Copying blob sha256:97d21b95fb00ac3b08975ab6f8709f3a7e35a05d75e2f9a70fa95348279dac27
+Copying blob sha256:7c0a46d2d00fd6b3bfbaf17d1a66701c9f045b106b2b77d30308d83b4997e91a
+Copying blob sha256:91f69e43c7b2a4191a9e05dd6f01c34b0993d76608c14e955f33397cb915ed5f
+Copying blob sha256:d6713be2e29283b75210dbd238dbd8a40037de079961bf7afa4865cd8687ef0e
+Copying blob sha256:0d13e422e987d4968e849a9fcaab036164e43e03c0d8c69d4394ad8dc1a01c7b
+Copying blob sha256:fc73ac045e6437103a9183eb474e41a67bbc65874896418df1049c6cb1cc9ecb
+Copying config sha256:64f10bf38baaa55ff5b37c771a34fe67de171b8c98ea87a7ffb73b2b506adcaf
+Writing manifest to image destination
+2025/04/24 15:10:25  info unpack layer: sha256:8a628cdd7ccc83e90e5a95888fcb0ec24b991141176c515ad101f12d6433eb96
+2025/04/24 15:10:26  info unpack layer: sha256:74018f7cfa8f2965fd86b13c38f71417bc846e071a5f5bb5ae569ccb5a6e7248
+2025/04/24 15:10:26  info unpack layer: sha256:a0b0cfc480ce03c723a597904bcfbf28c71438c689e6d5097c2332835f67a40c
+2025/04/24 15:10:27  info unpack layer: sha256:97d21b95fb00ac3b08975ab6f8709f3a7e35a05d75e2f9a70fa95348279dac27
+2025/04/24 15:10:27  info unpack layer: sha256:7c0a46d2d00fd6b3bfbaf17d1a66701c9f045b106b2b77d30308d83b4997e91a
+2025/04/24 15:10:27  info unpack layer: sha256:05802d3ba2ead9e590dd748b23da547106549ef0fa66bbe6cf14583d1450db04
+2025/04/24 15:10:27  info unpack layer: sha256:91f69e43c7b2a4191a9e05dd6f01c34b0993d76608c14e955f33397cb915ed5f
+2025/04/24 15:10:28  info unpack layer: sha256:d6713be2e29283b75210dbd238dbd8a40037de079961bf7afa4865cd8687ef0e
+2025/04/24 15:10:28  info unpack layer: sha256:0d13e422e987d4968e849a9fcaab036164e43e03c0d8c69d4394ad8dc1a01c7b
+2025/04/24 15:10:31  info unpack layer: sha256:fc73ac045e6437103a9183eb474e41a67bbc65874896418df1049c6cb1cc9ecb
+INFO:    Creating SIF file...
+end Job
