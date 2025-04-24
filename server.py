@@ -7,7 +7,7 @@ import time
 app = Flask(__name__)
 
 # Check if the model file exists and wait until it does
-model_path = '/app/models/iris_model.pkl'
+model_path = '/app/iris_model.pkl'
 
 while not os.path.exists(model_path):
     print(f"Waiting for model file at {model_path}...")
